@@ -16,9 +16,4 @@ void challenge5() {
   print("Challenge-5: root1 = $root1");
   print("Challenge -5: root2 = $root2");
 
-// Mini-exercise Chapter-3
-  const age1 = 42;
-  const age2 = 21;
-  const averageAge = (age1 + age2) / 2;
-  print(averageAge.runtimeType);
 }
