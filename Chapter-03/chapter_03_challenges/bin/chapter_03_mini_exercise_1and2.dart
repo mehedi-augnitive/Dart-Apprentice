@@ -1,4 +1,4 @@
-void miniExercise1() {
+void miniExercise1and2() {
 
   /* Initializes constant integer variable.
   * Without any type defined explicitly const acts like var.
