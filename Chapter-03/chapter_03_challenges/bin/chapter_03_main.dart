@@ -1,5 +1,5 @@
 import 'chapter_03_challenge_01.dart';
-import 'chapter_03_mini_exercise_1and2.dart';
+import 'chapter_03_mini_exercise_1.dart';
 import 'chapter_03_mini_exercise_2.dart';
 
 void main() {
