@@ -5,14 +5,14 @@ void challenge3() {
   const vote = 'Thumbs up! 👍🏼';
 
   // prints chapter and challenge number
-  print("Chapter-3, Challenge-3:");
+  print("\tChallenge-3:");
 
   // prints the number of UTF-16 code units
-  print("Number of UTF-16 code units are: ${vote.codeUnits.length}");
+  print("\t\tNumber of UTF-16 code units are: ${vote.codeUnits.length}");
 
   // prints the number of Unicode code points
-  print("Number of Unicode code points are: ${vote.runes.length}");
+  print("\t\tNumber of Unicode code points are: ${vote.runes.length}");
 
   // prints the number of Unicode grapheme clusters
-  print("Number of Unicode grapheme clusters are: ${vote.characters.length}");
+  print("\t\tNumber of Unicode grapheme clusters are: ${vote.characters.length}");
 }

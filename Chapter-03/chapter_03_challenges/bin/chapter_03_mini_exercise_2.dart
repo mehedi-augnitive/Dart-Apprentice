@@ -16,5 +16,5 @@ void miniExercise02() {
   const myDetails = 'Hello, my name is $fullName';
 
   // prints myDetails
-  print("Mini Exercise -2, greetings: $myDetails");
+  print("\tMini Exercise -2, greetings: $myDetails");
 }

@@ -10,5 +10,5 @@ void miniExercise01() {
   const averageAge = (age1 + age2) / 2;
 
   // prints the runtime variable type of averageAge.
-  print("Chapter-3: Mini Exercise - 1, Runtime Type: ${averageAge.runtimeType}");
+  print("\tMini Exercise - 1, Runtime Type: ${averageAge.runtimeType}");
 }
