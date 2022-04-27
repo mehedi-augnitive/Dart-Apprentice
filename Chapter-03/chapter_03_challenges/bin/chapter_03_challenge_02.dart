@@ -18,11 +18,11 @@ void challenge2() {
   if (twoCountries.runes.first == risR) {
 
     // prints which country flag is firs one and which country flag is the second
-    print("Chapter-3: Challenge-2,\nFirst flag is of Romania and second flag is of Chad.");
+    print("Chapter-3: Challenge-2, First flag is of Romania and second flag is of Chad.");
 
   }else{
 
     // prints which country flag is firs one and which country flag is the second
-    print("Chapter-3: Challenge-2,\nFirst flag is of Chad and second flag is of Romania.");
+    print("Chapter-3: Challenge-2, First flag is of Chad and second flag is of Romania.");
   }
 }
