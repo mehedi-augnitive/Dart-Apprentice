@@ -1,4 +1,5 @@
 import 'chapter_04_mini_exercise_01.dart';
+import 'chapter_04_mini_exercise_02.dart';
 
 void main() {
 
@@ -7,4 +8,7 @@ void main() {
 
   // calls the miniExercise1 method
   miniExercise1();
+
+  // call the miniExercise2 method
+  miniExercise2();
 }
