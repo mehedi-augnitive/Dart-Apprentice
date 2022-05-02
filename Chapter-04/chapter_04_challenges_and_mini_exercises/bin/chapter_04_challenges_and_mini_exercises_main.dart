@@ -1,3 +1,5 @@
+import 'chapter_04_challenge_01.dart';
+import 'chapter_04_challenge_02.dart';
 import 'chapter_04_mini_exercise_01.dart';
 import 'chapter_04_mini_exercise_02.dart';
 import 'chapter_04_mini_exercise_03.dart';
@@ -19,4 +21,10 @@ void main() {
 
   // calls the miniExercise4 method
   miniExercise4();
+
+  // calls the challenge1 method aka Find the error
+  challenge1();
+
+  // calls the challenge2 method aka Boolean challenge
+  challenge2();
 }
