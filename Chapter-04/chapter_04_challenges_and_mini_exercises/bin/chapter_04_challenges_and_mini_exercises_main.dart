@@ -1,5 +1,7 @@
 import 'chapter_04_challenge_01.dart';
 import 'chapter_04_challenge_02.dart';
+import 'chapter_04_challenge_03.dart';
+import 'chapter_04_challenge_04.dart';
 import 'chapter_04_mini_exercise_01.dart';
 import 'chapter_04_mini_exercise_02.dart';
 import 'chapter_04_mini_exercise_03.dart';
@@ -27,4 +29,10 @@ void main() {
 
   // calls the challenge2 method aka Boolean challenge
   challenge2();
+
+  // calls the challenge3 method aka Next power of two
+  challenge3();
+
+  // call the challenge4 method aka Fibonacci
+  challenge4();
 }
