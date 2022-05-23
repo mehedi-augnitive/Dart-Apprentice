@@ -3,7 +3,7 @@ void challenge4() {
   print("\tChallenge-4:");
 
   // Initializes the iteration number n = 17
-  const iteration = 14;
+  const iteration = 17;
 
   var previousNumber = 1;
   var currentNumber = 1;
