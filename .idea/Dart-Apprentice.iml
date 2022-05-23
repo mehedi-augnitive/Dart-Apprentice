@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-02/chapter_02_challenges/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-02/chapter_02_challenges/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-02/chapter_02_challenges/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-04/chapter_04_challenges_and_mini_exercises/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-04/chapter_04_challenges_and_mini_exercises/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-04/chapter_04_challenges_and_mini_exercises/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-01/hello_dart_project/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-01/hello_dart_project/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-01/hello_dart_project/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-03/chapter_03_challenges/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-03/chapter_03_challenges/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter-03/chapter_03_challenges/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
