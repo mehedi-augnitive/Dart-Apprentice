@@ -2,6 +2,9 @@ import 'chapter_04_challenge_01.dart';
 import 'chapter_04_challenge_02.dart';
 import 'chapter_04_challenge_03.dart';
 import 'chapter_04_challenge_04.dart';
+import 'chapter_04_challenge_05.dart';
+import 'chapter_04_challenge_06.dart';
+import 'chapter_04_challenge_07.dart';
 import 'chapter_04_mini_exercise_01.dart';
 import 'chapter_04_mini_exercise_02.dart';
 import 'chapter_04_mini_exercise_03.dart';
@@ -33,6 +36,15 @@ void main() {
   // calls the challenge3 method aka Next power of two
   challenge3();
 
-  // call the challenge4 method aka Fibonacci
+  // calls the challenge4 method aka Fibonacci
   challenge4();
+
+  // calls the challenge5 method aka How many times?
+  challenge5();
+
+  // calls the challenge6 method aka Final countdown
+  challenge6();
+
+  // calls the challenge7 method aka Print a sequence
+  challenge7();
 }
