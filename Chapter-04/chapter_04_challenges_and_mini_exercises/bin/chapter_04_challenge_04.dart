@@ -3,7 +3,7 @@ void challenge4() {
   print("\tChallenge-4:");
 
   // Initializes the iteration number n = 17
-  const iteration = 17;
+  const iteration = 14;
 
   var previousNumber = 1;
   var currentNumber = 1;
@@ -13,7 +13,7 @@ void challenge4() {
    *loop initialization = 2 as two Fibonacci numbers(1 and 1) are initialized
    * as previous and current numbers
   */
-  for (int i = 2; i < 17; i++) {
+  for (int i = 2; i < iteration; i++) {
     fibonacciNumber = previousNumber + currentNumber;
     previousNumber = currentNumber;
     currentNumber = fibonacciNumber;
