@@ -2,13 +2,13 @@ import 'chapter_04_challenge_01.dart';
 import 'chapter_04_challenge_02.dart';
 import 'chapter_04_challenge_03.dart';
 import 'chapter_04_challenge_04.dart';
+import 'chapter_04_challenge_05.dart';
 import 'chapter_04_mini_exercise_01.dart';
 import 'chapter_04_mini_exercise_02.dart';
 import 'chapter_04_mini_exercise_03.dart';
 import 'chapter_04_mini_exercise_04.dart';
 
 void main() {
-
   // prints chapter name
   print("Chapter-4:");
 
@@ -33,6 +33,9 @@ void main() {
   // calls the challenge3 method aka Next power of two
   challenge3();
 
-  // call the challenge4 method aka Fibonacci
+  // calls the challenge4 method aka Fibonacci
   challenge4();
+
+  // calls the challenge5 method aka How many times?
+  challenge5();
 }
