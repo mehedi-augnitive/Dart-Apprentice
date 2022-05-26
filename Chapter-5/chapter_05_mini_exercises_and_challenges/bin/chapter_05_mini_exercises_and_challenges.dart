@@ -1,5 +1,6 @@
 import 'chapter_05_mini_exercises/chapter_05_mini_exercise_01.dart';
 import 'chapter_05_mini_exercises/chapter_05_mini_exercise_02.dart';
+import 'chapter_05_mini_exercises/chapter_05_mini_exercise_03.dart';
 
 void main() {
   /// prints the chapter number
@@ -15,4 +16,9 @@ void main() {
   // calls changingYouAreWonderful function that changes the
   // youAreWonderful function into a anonymous function
   changingYouAreWonderful();
+
+
+  // calls changingAnonymousToArrow function that changes the
+  // anonymous functions of mini exercise-2 into a anonymous function
+  changingAnonymousToArrow();
 }
