@@ -1,4 +1,6 @@
 import 'chapter_05_challenges/chapter_05_challenge_01.dart';
+import 'chapter_05_challenges/chapter_05_challenge_02.dart';
+import 'chapter_05_challenges/chapter_05_challenge_03.dart';
 import 'chapter_05_mini_exercises/chapter_05_mini_exercise_01.dart';
 import 'chapter_05_mini_exercises/chapter_05_mini_exercise_02.dart';
 import 'chapter_05_mini_exercises/chapter_05_mini_exercise_03.dart';
@@ -27,4 +29,28 @@ void main() {
    * prints the returned String
   */
   print(isPrime(6199));
+
+  /*
+   * calls repeatTask function with  two required integer variables and
+   * an anonymous function as a parameter
+   * prints the returned integer value
+  */
+  print("\tSquaring 2 for 4 times gives ${repeatTask(
+    4,
+    2,
+    (input) {
+      return input * input;
+    },
+  )}");
+
+  /*
+   * calls repeatTaskAsArrow function with  two required integer variables and
+   * an anonymous function as a parameter
+   * prints the returned integer value
+  */
+  print("\tSquaring 2 for 4 times gives ${repeatTaskAsArrow(
+    4,
+    2,
+    (num input) => input * input,
+  )}");
 }
