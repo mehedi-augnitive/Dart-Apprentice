@@ -1,4 +1,5 @@
 import 'chapter_06_mini_exercises/chapter_06_challenge_01.dart';
+import 'chapter_06_mini_exercises/chapter_06_challenge_02.dart';
 import 'chapter_06_mini_exercises/chapter_06_mini_exercise_01.dart';
 import 'chapter_06_mini_exercises/chapter_06_mini_exercise_02.dart';
 
@@ -24,6 +25,16 @@ void main(List<String> arguments) {
   final bert = Student(firstName: 'Bert', lastName: 'Arnold', grade: 95);
   // Create another Student
   final ernie = Student(firstName: 'Ernie', lastName: 'page', grade: 85);
-  // Print bert
+  // Print bert & ernie
   print('\t$bert and $ernie');
+
+  print('Chapter-6, Challenge-2:');
+  // Create a Sphere object
+  const sphere = Sphere(radius: 12);
+  // gets the volume fo the sphere
+  final volume = sphere.volume;
+  // gets the surface area of the sphere
+  final surfaceArea = sphere.surfaceArea;
+  // prints volume and surface area
+  print('\tThe sphere with has volume: $volume and surface area: $surfaceArea');
 }
