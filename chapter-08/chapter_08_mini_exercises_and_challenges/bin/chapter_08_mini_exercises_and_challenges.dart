@@ -1,6 +1,7 @@
 import 'chapter-08_mini exercises/chapter_08_mini_exercise_01.dart';
 import 'chapter-08_mini exercises/chapter_08_mini_exercise_02.dart';
 import 'chapter-08_mini exercises/chapter_08_mini_exercise_03.dart';
+import 'chapter_08_challenges/chapter_08_challenge_01_and_02.dart';
 
 void main() {
   print('Chapter-08 Mini Exercise-01:');
@@ -24,10 +25,19 @@ void main() {
   miniExercise02.printInformationValue();
 
   print('Chapter-08 Mini Exercise-03:');
-  // Creates an object o MiniExercise03 class
+  // Creates an object of MiniExercise03 class
   final miniExercise03 = MiniExercise03();
   // Calls findHighestLowest method
   miniExercise03.findHighestLowest();
   // Calls findBGrades method
   miniExercise03.findBGrades();
+
+  print('Chapter-08 Challenge-01:');
+  // Creates an object of UniqueRequest class
+  final uniqueReq = UniqueRequest();
+  // Prints unique characters calling uniqueChars method
+  print('\tUnique characters in the paragraph: ${uniqueReq.uniqueChars()}');
+
+  print('Chapter-08 Challenge-02:');
+  print('\tCharacter count: ${uniqueReq.charCount()}');
 }
