@@ -1,5 +1,6 @@
 import 'chapter_09_challenges/chapter_09_challenge_01.dart';
 import 'chapter_09_challenges/chapter_09_challenge_02.dart';
+import 'chapter_09_challenges/chapter_09_challenge_03.dart';
 import 'chapter_09_mini_exercises/chapter_09_mini_exercise_01.dart';
 import 'chapter_09_mini_exercises/chapter_09_mini_exercise_02.dart';
 import 'chapter_09_mini_exercises/chapter_09_mini_exercise_03.dart';
@@ -49,4 +50,7 @@ void main() {
   print('\t${repository.findNote(1)} is returned');
   print('\tAll notes: ${repository.allNotes()}');
   repository.saveNote('Note-4:');
+
+  print('Chapter-09 Challenge-03:');
+  RemainingTime().timeRemained();
 }
