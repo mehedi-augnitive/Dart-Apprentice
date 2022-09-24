@@ -1,4 +1,5 @@
 import 'chapter_09_challenges/chapter_09_challenge_01.dart';
+import 'chapter_09_challenges/chapter_09_challenge_02.dart';
 import 'chapter_09_mini_exercises/chapter_09_mini_exercise_01.dart';
 import 'chapter_09_mini_exercises/chapter_09_mini_exercise_02.dart';
 import 'chapter_09_mini_exercises/chapter_09_mini_exercise_03.dart';
@@ -42,4 +43,10 @@ void main() {
   for (var platypus in platypi) {
     print('\t\t${platypus.weight}');
   }
+
+  print('Chapter-09 Challenge-02:');
+  final repository = DataRepository();
+  print('\t${repository.findNote(1)} is returned');
+  print('\tAll notes: ${repository.allNotes()}');
+  repository.saveNote('Note-4:');
 }
